@@ -12,6 +12,8 @@ import java.util.LinkedList;
 public class RegistroPersonas {
 	
 	/*
+	 * Modelo parcial campus noviembre 2023	
+	 * 
 	 * 1-Implementar un método getPersonas  de la class RegistroPersonas
 	 * que reciba el nombre de un archivo y devuelva un objeto
 	 * LinkedList<Persona> con personas que fueron leídas del archivo de
