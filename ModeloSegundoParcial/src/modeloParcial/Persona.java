@@ -41,6 +41,12 @@ public class Persona implements Comparable<Persona>{
 	}
 	
 	@Override
+	public int compareTo(Persona o) {
+		return this.getNombre().compareTo(o.getNombre());
+	}
+	
+	/* Edad
+	@Override
 	public int compareTo(Persona p) {
 		int comparedEdad = p.getEdad();
 		if (this.edad > comparedEdad) {
@@ -51,6 +57,8 @@ public class Persona implements Comparable<Persona>{
 			return -1;
 		}
 	}
+	*/
+
 
 }
 
